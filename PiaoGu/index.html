@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>票谷网</title>
+    <link rel="stylesheet" href="css/home.css" >
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <script src="js/jquery-1.11.0.min.js"></script>
+
+    <!-- jQuery UI mouse draggable widget -->
+    <script src="js/jquery-ui.min.js"></script>
+
+    <!-- Touch Event Support for jQuery UI -->
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+
+    <!-- MA5 Slider -->
+    <link href="css/ma5slider.css" rel="stylesheet" type="text/css">
+    <script src="js/ma5slider.min.js"></script>
+</head>
+<body>
+  <div class="toolBar">
+       <img src="images/toolbar_logo.png" >
+      <div class="redLine"></div>
+      <ul id="toolBar">
+          <li class="first_li"><a id="a1" href="#row1" style="text-decoration: none">首页</a></li>
+          <li><a href="#row4" id="a2" style="text-decoration: none">投资产品</a></li>
+          <li><a href="#row5" id="a3" style="text-decoration: none">融资之路</a></li>
+          <li><a href="#footer" id="a4" style="text-decoration: none">联系我们</a></li>
+      </ul>
+  </div>
+  <div id="row1" class="ma5slider  inside-dots anim-horizontal loop-mode autoplay"  style="margin-bottom: 0px" >
+      <div class="slides">
+          <a href="#slide-1"  data-ma5-dot="#fff" data-ma5-dot-active="#d54e39" ><img src="images/banner1.png" class="banner_img" alt=""></a>
+          <a href="#slide-2" data-ma5-dot="#fff" data-ma5-dot-active="#d54e39"><img src="images/banner1.png" class="banner_img" alt=""></a>
+          <a href="#slide-3" data-ma5-dot="#fff" data-ma5-dot-active="#d54e39"><img src="images/banner1.png" class="banner_img" alt=""></a>
+      </div>
+  </div>
+  <div class="row2" id="row2">
+     <img src="images/iphone.png" class="iphone">
+      <div class="right">
+          <p class="row2_title">票谷网小程序</p>
+          <p class="row2_title_fu">连锁餐饮收益的全民共享平台</p>
+          <div class="item1">
+              <img src="images/icon1.png">
+              <div class="desc">
+                <P class="item_top">总资产 <img src="images/half_arrow.png"></P>
+                <p class="item_bottom">连锁餐饮收益的全民共享品台</p>
+              </div>
+
+          </div>
+          <div class="item" >
+              <img src="images/icon2.png">
+              <div class="desc">
+                  <P class="item_top">昨日收益 <img src="images/half_arrow.png"></P>
+                  <p class="item_bottom">连锁餐饮收益的全民共享品台</p>
+              </div>
+
+          </div>
+          <div class="item" >
+              <img src="images/icon3.png">
+              <div class="desc">
+                  <P class="item_top">账户充值 <img src="images/half_arrow.png"></P>
+                  <p class="item_bottom">连锁餐饮收益的全民共享品台</p>
+              </div>
+
+          </div>
+          <div class="item" >
+              <img src="images/icon4.png">
+              <div class="desc">
+                  <P class="item_top">历史营收 <img src="images/half_arrow.png"></P>
+                  <p class="item_bottom">连锁餐饮收益的全民共享品台</p>
+              </div>
+
+          </div>
+      </div>
+  </div>
+  <div class="row3" id="row3">
+      <div class="maskView">
+           <p class="">票谷网是什么？</p>
+          <img src="images/video_play.png" class="video_img">
+      </div>
+  </div>
+  <div class="row4" id="row4">
+      <ul>
+          <li><img src="images/store1.png"></li>
+          <li><img src="images/store2.png"></li>
+          <li><img src="images/store3.png"></li>
+          <li><img src="images/store4.png"></li>
+          <li><img src="images/store5.png"></li>
+      </ul>
+
+      <ul>
+          <li><img src="images/store6.png"></li>
+          <li><img src="images/store7.png"></li>
+          <li><img src="images/store8.png"></li>
+          <li><img src="images/store9.png"></li>
+          <li><img src="images/store10.png"></li>
+      </ul>
+      <p><span>投资</span>身边有真实<span>体验</span>的一线餐饮品牌</p>
+
+  </div>
+  <div class="row5" id="row5">
+       <div class="row5_maskView">
+          <img src="images/row5_img.png">
+       </div>
+
+  </div>
+  <div class="footer" id="footer">
+      <div class="footer_left">
+          <img src="images/telephone.png">
+          <p>更多详情请拨打<br><span>0571-89715260</span><br>我们会有专人提供咨询</p>
+      </div>
+      <div class="footer_right">
+          <img src="images/email.png">
+          <p>发送邮件到<br><span>ubangwang@qq.com</span><br>我们将及时与您联系</p>
+      </div>
+
+  </div>
+  <video width="400" height="400" controls="controls" class="video" >
+      <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+      <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+      <source src="http://vjs.zencdn.net/v/oceans.ogv" type="video/ogg">
+      Your browser does not support the video tag.
+  </video>
+</body>
+<script>
+    var selectedId = "#a1";
+    $(window).on('load', function () {
+        $('.ma5slider').ma5slider();
+    });
+    $("#toolBar a:first").css("color","#d54e39")
+    $(document).ready(function(){
+        $("a").click(function(){
+            $(selectedId).css("color","#fff")
+            $(this).css("color","#d54e39");
+            selectedId = "#"+$(this).attr("id");
+        });
+    });
+    $(window).scroll(function(event){
+        var scrollHeight = $(window).scrollTop()//窗口已经滚动的距离
+        var toolBarHeight = $(".toolBar").height()
+        var row4Height = $("#row4").offset().top -toolBarHeight//元素相对于窗口的距离
+        var row5Height = $("#row5").offset().top-toolBarHeight
+        var footerHeight = $("#footer").offset().top -toolBarHeight
+
+        if(scrollHeight < row4Height)
+        {
+//                        alert("滚动到指定位置")
+            $(selectedId).css("color","#fff")
+            $("#a1").css("color","#d54e39");
+            selectedId = "#a1";
+        }else if (scrollHeight < row5Height)
+        {
+//                        alert("滚动到指定位置")
+            $(selectedId).css("color","#fff")
+            $("#a2").css("color","#d54e39");
+            selectedId = "#a2";
+
+        }else
+        {
+            //            alert("滚动到指定位置")
+            $(selectedId).css("color","#fff")
+            $("#a3").css("color","#d54e39");
+            selectedId = "#a3";
+        }
+
+
+
+    });
+
+</script>
+</html>
