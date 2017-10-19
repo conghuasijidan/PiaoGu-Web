@@ -1,0 +1,143 @@
+body {
+  margin: 0 auto;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  height: 1.8773333333rem;
+  background-color: #1e242f;
+  display: flex;
+  align-items: center; }
+
+.logo {
+  width: 4.7786666667rem;
+  height: 1.28rem;
+  margin-left: 0.4266666667rem; }
+
+.row1 {
+  margin: 0; }
+
+.row1 img {
+  width: 100%;
+  height: 8.5333333333rem; }
+
+.row1_mask {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 4.2666666667rem;
+  height: 4.2666666667rem;
+  position: absolute;
+  left: 1.0666666667rem;
+  top: 1.8773333333rem;
+  z-index: 1000; }
+
+.iphone {
+  width: 5.3333333333rem;
+  height: 10.9226666667rem; }
+
+.row2 {
+  width: 100%;
+  height: 13.4826666667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.right {
+  margin-left: 1.152rem;
+  height: 10.9226666667rem;
+  display: flex;
+  flex-direction: column; }
+
+.row2_title {
+  color: #333;
+  font-size: 0.768rem;
+  margin: 0px;
+  margin-top: 0.4266666667rem; }
+
+.row2_title_fu {
+  color: #666;
+  font-size: 0.512rem;
+  margin: 0px; }
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-top: 0.768rem; }
+
+.item1 {
+  display: flex;
+  align-items: center;
+  margin-top: 0.768rem; }
+
+.desc {
+  margin-left: -0.2133333333rem; }
+
+.desc img {
+  width: 0.7253333333rem;
+  height: 0.2133333333rem; }
+
+.item_top {
+  color: #333;
+  font-size: 0.512rem;
+  margin: 0px; }
+
+.item_bottom {
+  color: #666;
+  font-size: 0.4266666667rem;
+  margin: 0px; }
+
+.item img {
+  margin-left: 0px; }
+
+.row3 {
+  width: 100%;
+  height: 8.5333333333rem;
+  background-image: url("../images/video_bg.png"); }
+
+.maskView {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.maskView p {
+  font-size: 1.0666666667rem;
+  color: #fff;
+  letter-spacing: 0.1706666667rem;
+  margin-top: 2.0053333333rem;
+  margin-bottom: 0.768rem; }
+
+.maskView img {
+  width: 1.664rem;
+  height: 1.664rem; }
+
+#video_play_bg {
+  width: 100%;
+  height: 100%; }
+
+.row4 {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.row4 li {
+  display: inline-block;
+  margin-right: 0.64rem; }
+
+.row4 img {
+  width: 3.84rem;
+  height: 2.56rem;
+  float: left; }
+
+.row4 p {
+  font-size: 0.5973333333rem;
+  color: #333; }
+
+.row4 span {
+  color: #d54e39; }
+
+/*# sourceMappingURL=home.css.map */

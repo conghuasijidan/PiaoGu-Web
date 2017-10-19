@@ -30,6 +30,45 @@ body{
   width:100%;height:100%;object-fit: fill;position: absolute;left: 0;top:0;z-index: 1000;
 
 }
+.banner_img{
+  width: 100%;
+  @media(max-width: 359px) {
+    height: 500px;
+  }
+  @media(min-width: 360px) and (max-width: 767.9px) {
+    height: 700px;
+  }
+  @media(min-width: 768px) and (max-width: 991.9px) {
+    height: 750px;
+  }
+  @media(min-width: 992px) and (max-width: 1199.9px) {
+    height: 800px;
+  }
+  @media(min-width: 1000px) and (max-width: 1200px) {
+    height: 850px;
+  }
+  @media(min-width: 1200px) and (max-width: 1400px) {
+    height: 900px;
+  }
+  @media(min-width: 1400px) and (max-width: 1600px) {
+    height: 950px;
+  }
+  @media(min-width: 1600px) and (max-width: 1800px) {
+    height: 1000px;
+  }
+}
+.row1{
+
+  @media (min-width: 1000px)  {
+    margin-top: 88px;
+  }
+  @media (min-width: 600px) and (max-width: 1000px) {
+    margin-top: 66px;
+  }
+  @media (min-width: 1000px)  {
+    margin-top: 40px;
+  }
+}
 // 正常
 @media screen and (min-width: 1000px){
   .toolBar{
@@ -42,6 +81,7 @@ body{
     background-color: #1e242f;
     display: flex;
     align-items: center;
+    //opacity: 0.2;
 
   }
 
@@ -67,10 +107,7 @@ body{
     font-size: 24px;
     color: #fff;
   }
-  .banner_img{
-    width: 100%;
-    height: 1000px;
-  }
+
 
   .row2{
     //background-color: orange;
@@ -79,7 +116,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 88px;
+    //margin-top: 88px;
   }
   .right{
     //background-color: orange;
