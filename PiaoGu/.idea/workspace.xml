@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="135" column="8" lean-forward="true" selection-start-line="125" selection-start-column="2" selection-end-line="135" selection-end-column="8" />
+            <state relative-caret-position="330">
+              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="644" column="3" lean-forward="true" selection-start-line="613" selection-start-column="2" selection-end-line="644" selection-end-column="3" />
+            <state relative-caret-position="375">
+              <caret line="282" column="12" lean-forward="true" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -64,6 +64,7 @@
       <find>banner_img</find>
       <find>iphone</find>
       <find>video</find>
+      <find>first_li</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -76,8 +77,8 @@
         <option value="$PROJECT_DIR$/css/components/_ma5slider.scss" />
         <option value="$PROJECT_DIR$/css/swiper.css" />
         <option value="$PROJECT_DIR$/css/swiper.scss" />
-        <option value="$PROJECT_DIR$/css/home.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/home.scss" />
       </list>
     </option>
   </component>
@@ -94,8 +95,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="138" />
-    <option name="y" value="-1057" />
+    <option name="x" value="-74" />
+    <option name="y" value="-1034" />
     <option name="width" value="1536" />
     <option name="height" value="978" />
   </component>
@@ -271,15 +272,15 @@
       <workItem from="1508222751899" duration="2705000" />
       <workItem from="1508289526551" duration="9448000" />
       <workItem from="1508311387084" duration="1048000" />
-      <workItem from="1508394791195" duration="5842000" />
+      <workItem from="1508394791195" duration="7255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73726000" />
+    <option name="totallyTimeSpent" value="75139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="-1057" width="1536" height="978" extended-state="1" />
+    <frame x="-74" y="-1034" width="1536" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20507812" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -535,10 +536,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="282" column="12" lean-forward="true" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="135" column="8" lean-forward="true" selection-start-line="125" selection-start-column="2" selection-end-line="135" selection-end-column="8" />
+        <state relative-caret-position="330">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -546,14 +555,6 @@
             <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#video#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="644" column="3" lean-forward="true" selection-start-line="613" selection-start-column="2" selection-end-line="644" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
