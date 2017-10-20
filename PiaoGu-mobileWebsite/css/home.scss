@@ -144,6 +144,13 @@ body{
   justify-content: center;
   align-items: center;
 }
+.storeLogo{
+  margin-top: px2rem(20);
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right:0px;
+
+}
 .row4 li{
   display: inline-block;
   margin-right:px2rem(30);
@@ -157,8 +164,64 @@ body{
 .row4 p{
   font-size: px2rem(28);
   color: #333;
+  margin: 0px;
+  margin-top: px2rem(25);
+  margin-bottom: px2rem(30);
 
 }
 .row4 span{
   color: #d54e39;
+}
+
+.row5{
+  width: 100%;
+  //height: 500px;
+  background-image: url("../images/row5_bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row5 img{
+  width:px2rem(618) ;
+  height: px2rem(756);
+  margin-top: px2rem(104);
+  margin-bottom: px2rem(90);
+}
+
+.footer{
+  width: 100%;
+  height: px2rem(268);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_left{
+  display: flex;
+  //background-color: orange;
+
+}
+.footer_right{
+  height: auto;
+  margin-left: px2rem(60);
+  display: flex;
+  flex-direction: row;
+  //background-color: orange;
+
+}
+.footer img{
+  width:px2rem(48);
+  height: px2rem(48);
+}
+.footer p{
+  font-size: px2rem(20);
+  color: #333;
+  margin: 0px;
+  margin-left: px2rem(10);
+  line-height: px2rem(35);
+}
+.footer span{
+  color: #da4e3f;
+  font-size: px2rem(24);
 }

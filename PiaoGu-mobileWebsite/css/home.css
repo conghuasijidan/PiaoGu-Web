@@ -124,6 +124,12 @@ body {
   justify-content: center;
   align-items: center; }
 
+.storeLogo {
+  margin-top: 0.4266666667rem;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px; }
+
 .row4 li {
   display: inline-block;
   margin-right: 0.64rem; }
@@ -135,9 +141,57 @@ body {
 
 .row4 p {
   font-size: 0.5973333333rem;
-  color: #333; }
+  color: #333;
+  margin: 0px;
+  margin-top: 0.5333333333rem;
+  margin-bottom: 0.64rem; }
 
 .row4 span {
   color: #d54e39; }
+
+.row5 {
+  width: 100%;
+  background-image: url("../images/row5_bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.row5 img {
+  width: 13.184rem;
+  height: 16.128rem;
+  margin-top: 2.2186666667rem;
+  margin-bottom: 1.92rem; }
+
+.footer {
+  width: 100%;
+  height: 5.7173333333rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer_left {
+  display: flex; }
+
+.footer_right {
+  height: auto;
+  margin-left: 1.28rem;
+  display: flex;
+  flex-direction: row; }
+
+.footer img {
+  width: 1.024rem;
+  height: 1.024rem; }
+
+.footer p {
+  font-size: 0.4266666667rem;
+  color: #333;
+  margin: 0px;
+  margin-left: 0.2133333333rem;
+  line-height: 0.7466666667rem; }
+
+.footer span {
+  color: #da4e3f;
+  font-size: 0.512rem; }
 
 /*# sourceMappingURL=home.css.map */
